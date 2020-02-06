@@ -1,0 +1,57 @@
+body{
+    margin: 0px 0px 0px 2px;
+}
+.main_nav{
+    background-color:darkorchid;
+    height: 33px;
+}
+.dropdown{
+    float: left;
+    padding-right: 55px;
+    text-align: center;
+    border-right: 1px solid #73AD21;
+    line-height: 28px;
+    margin-left:  0px;
+    color: white;
+    font-size: large;
+    font-style: inherit;
+}   
+ul{
+    display: none;
+}
+div:hover >ul{
+    display: block;
+    position: fixed;
+    list-style-type: none;
+    margin: inherit;
+    padding:inherit;
+    padding-right: 45px;
+    text-align: center;
+    background-color: darkorchid;
+    line-height: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+div:focus >ul{
+    display: block;
+    position:fixed;
+    list-style-type: none;
+    margin: inherit;
+    padding: inherit;
+    background-color:darkorchid;
+}
+.content{
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 750px;
+    height: 200px;  
+    background-color: lightgray;
+    
+}
